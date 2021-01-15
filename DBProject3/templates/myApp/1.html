@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>3rd model Application</title>
+  </head>
+  <body bgcolor = "deeppink">
+    <center>
+    <h1><u>Customer Details :</u></h1>
+    {% for x in cust %}
+    <h2>Name :{{x.name}}</h2>
+    <h2>Age :{{x.age}}</h2>
+    <h2>Mail :{{x.mail}}</h2>
+    <h2>Phone :{{x.ph}}</h2>
+    <hr/>
+    {% endfor %}
+    </center>
+  </body>
+</html>
